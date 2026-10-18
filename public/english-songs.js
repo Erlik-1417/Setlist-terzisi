@@ -1,0 +1,18 @@
+export const englishSongs = [
+  ['Wonderwall', 'Oasis', 258, 'Em', 3, 2],
+  ['Yellow', 'Coldplay', 269, 'B', 3, 2],
+  ['Perfect', 'Ed Sheeran', 263, 'G', 2, 2],
+  ['Someone Like You', 'Adele', 285, 'A', 2, 3],
+  ['Stand by Me', 'Ben E. King', 180, 'A', 2, 1],
+  ["I'm Yours", 'Jason Mraz', 242, 'B', 3, 2],
+  ['Riptide', 'Vance Joy', 204, 'Am', 4, 2],
+  ['Ho Hey', 'The Lumineers', 163, 'C', 4, 1],
+  ['Use Somebody', 'Kings of Leon', 231, 'C', 4, 3],
+  ['Take Me to Church', 'Hozier', 242, 'Em', 4, 3],
+  ['Rolling in the Deep', 'Adele', 228, 'Cm', 5, 3],
+  ['Valerie', 'Mark Ronson feat. Amy Winehouse', 219, 'Eb', 4, 2],
+  ['Get Lucky', 'Daft Punk feat. Pharrell Williams', 248, 'Bm', 5, 2],
+  ['Uptown Funk', 'Mark Ronson feat. Bruno Mars', 270, 'Dm', 5, 3],
+  ['Blinding Lights', 'The Weeknd', 200, 'Fm', 5, 3],
+  ['Flowers', 'Miley Cyrus', 200, 'Am', 4, 2],
+].map((song, index) => ({id:`english-${index}`, title:song[0], artist:song[1], seconds:song[2], key:song[3], energy:song[4], vocal:song[5], selected:true}));
